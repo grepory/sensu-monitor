@@ -1,6 +1,8 @@
 # Sensu-monitor
 
-TODO: Write a gem description
+Sensu-monitor is a base Thor application that serves as a method of encapsulating
+domain-specific logic for Sensu. It serves as a bridge between Sensu and any
+systems or services that are being monitored.
 
 ## Installation
 
@@ -18,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Implement one or more of the SensuMonitor::Inquisitor or SensuMonitor::Collector
+classes and then run them using (respectively):
+
+sensu-monitor check
+sensu-monitor collect
 
 ## Contributing
 
@@ -30,8 +36,6 @@ TODO: Write usage instructions here
 
 
 ## Testing
-
-TODO: Add information specific to your gem's test suite.
 
 The Rakefile comes with several convenience tasks for running tests as well. By rake task:
 
