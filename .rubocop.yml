@@ -11,3 +11,9 @@ CaseIndentation:
 # MethodLength is superseded by Reek's TooManyStatements smell-finder.
 MethodLength:
   Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/FileName:
+  Enabled: false

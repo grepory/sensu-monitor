@@ -3,6 +3,7 @@ def fixture(filename)
 end
 
 module SensuMonitor::Test
+  # Test fixtures
   module Fixtures
   end
 end

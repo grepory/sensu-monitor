@@ -1,3 +1,4 @@
+# print the version
 class SensuMonitorCLI < Thor
   desc 'version', 'show sensu-monitor version'
   def version

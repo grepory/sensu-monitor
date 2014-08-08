@@ -1,5 +1,5 @@
+# :rubocop:disable Style/FileName
 #!/usr/bin/env ruby
-
 require 'thor'
 
 # Set up the load path so we can load things from our own lib
@@ -27,3 +27,4 @@ SensuMonitor.after_command_load
 
 # Janky way of avoiding starting the CLI if we're running under rspec.
 SensuMonitorCLI.start unless $PROGRAM_NAME =~ /rspec/
+# :rubocop:enable Style/FileName
